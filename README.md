@@ -15,9 +15,11 @@ The User model is the following:
  - Using component state, get and display the users
  - Optional: finish implementing create, update, and delete operations.  IDs are generated using uuidv4.
 
-## Available Scripts
+## Project Setup
 
 In the project directory, you can run:
+
+### `npm install`
 
 ### `npm start`
 

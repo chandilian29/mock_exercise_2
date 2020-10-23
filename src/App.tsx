@@ -4,8 +4,7 @@ import './App.css';
 import { getUsers, createUser } from './mock';
 
 interface AppProps {}
-interface AppState {
-}
+interface AppState {}
 
 export default class App extends React.Component<AppProps, AppState> {
   render() {
@@ -15,7 +14,7 @@ export default class App extends React.Component<AppProps, AppState> {
           <p>
             Mock exercise for Walden University.
             <br/>
-            <code>Edit App.js to get started.</code>
+            <code>Edit src/App.tsx to get started.</code>
           </p>
         </header>
         <div className="content">
