@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-useless-constructor */
 import React from 'react';
 import './App.css';
-import { getUsers, createUser } from './mock';
+import ViewUser from "./components/ViewUser";
 
 interface AppProps {}
 interface AppState {}
@@ -17,9 +17,10 @@ export default class App extends React.Component<AppProps, AppState> {
             <code>Edit src/App.tsx to get started.</code>
           </p>
         </header>
-        <div className="content">
-          Content goes here
-        </div>
+          <br/>
+          <br/>
+            <ViewUser />
+            <br/>
       </div>
     );
   }
